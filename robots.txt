@@ -1,0 +1,50 @@
+# robots.txt for MetaSurge
+# https://metasurge.github.io/
+# Last updated: 2026-04-20
+#
+# Policy:
+# - All search engines fully allowed to crawl
+# - CSS/JS/images are NOT blocked (per Site.md §2.8)
+# - Pure AI-training crawlers (GPTBot, CCBot, anthropic-ai) are blocked
+# - Search-grounding AI bots (OAI-SearchBot, PerplexityBot, Google-Extended)
+#   are ALLOWED to improve Generative Engine Optimization visibility
+#   (per Site.md §4.4)
+
+User-agent: *
+Allow: /
+Disallow: /*?utm_
+Disallow: /*?ref=
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+
+# AI training-only crawlers — blocked to avoid silent training reuse
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# AI search-augmentation bots — ALLOWED for GEO visibility
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Sitemap
+Sitemap: https://metasurge.github.io/sitemap.xml

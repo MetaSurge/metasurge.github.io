@@ -1,0 +1,19 @@
+{
+  "name": "MetaSurge — メタマスクガイド",
+  "short_name": "MetaSurge",
+  "description": "メタマスクウォレットのダウンロードと利用開始に関する日本語ガイド",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBFBFC",
+  "theme_color": "#E17726",
+  "lang": "ja",
+  "dir": "ltr",
+  "categories": ["education", "finance", "productivity"],
+  "icons": [
+    {"src": "/og-image.png", "sizes": "1200x630", "type": "image/png", "purpose": "any"},
+    {"src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any"},
+    {"src": "/og-image.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

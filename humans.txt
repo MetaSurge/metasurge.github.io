@@ -1,0 +1,16 @@
+/* TEAM */
+  Editorial: MetaSurge編集部 (MetaSurge Editorial Team)
+  Site: https://metasurge.github.io/
+  Language: 日本語 (Japanese)
+
+/* SITE */
+  Last update: 2026-04-20
+  Doctype: HTML5
+  Standards: HTML5, CSS3, JSON-LD, Schema.org, WCAG 2.2 AA
+  Components: Pure HTML/CSS + minimal vanilla JS (modal focus management only)
+  Hosting: GitHub Pages (Fastly CDN)
+
+/* EDITORIAL POLICY */
+  Primary sources: MetaMask official documentation, ConsenSys docs, browser extension stores
+  Review process: Internal peer review before publication
+  Update policy: Substantive changes only, no cosmetic re-dating

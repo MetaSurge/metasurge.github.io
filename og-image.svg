@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="MetaSurge - メタマスクウォレットをダウンロードして利用を開始する">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF4EC"/>
+      <stop offset="100%" stop-color="#FDE8D6"/>
+    </linearGradient>
+    <linearGradient id="fox" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6851B"/>
+      <stop offset="55%" stop-color="#E17726"/>
+      <stop offset="100%" stop-color="#CD6116"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative orange stripe -->
+  <rect x="0" y="0" width="1200" height="8" fill="#E17726"/>
+  <rect x="0" y="622" width="1200" height="8" fill="#E17726"/>
+
+  <!-- Orange fox icon (left) -->
+  <g transform="translate(110,170)">
+    <path d="M0 40 L50 10 L74 90 L190 90 L214 10 L264 40 L240 200 L264 270 L212 350 L158 312 L106 312 L52 350 L0 270 L24 200 Z"
+          fill="url(#fox)" stroke="#763E1A" stroke-width="5" stroke-linejoin="round"/>
+    <!-- Inner face -->
+    <path d="M74 90 L132 130 L190 90 L180 230 L132 270 L84 230 Z" fill="#FFD7B5" opacity="0.55"/>
+    <!-- Eyes -->
+    <ellipse cx="84" cy="160" rx="16" ry="18" fill="#fff"/>
+    <ellipse cx="180" cy="160" rx="16" ry="18" fill="#fff"/>
+    <circle cx="84" cy="162" r="8" fill="#233447"/>
+    <circle cx="180" cy="162" r="8" fill="#233447"/>
+    <circle cx="87" cy="158" r="2.5" fill="#fff"/>
+    <circle cx="183" cy="158" r="2.5" fill="#fff"/>
+    <!-- Nose -->
+    <path d="M118 220 L146 220 L132 238 Z" fill="#233447"/>
+    <!-- Mouth -->
+    <path d="M104 256 Q132 280 160 256" fill="none" stroke="#763E1A" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text block (right) -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif">
+    <text x="460" y="210" font-size="42" font-weight="700" fill="#1A1D20">メタマスクウォレットを</text>
+    <text x="460" y="268" font-size="42" font-weight="700" fill="#1A1D20">ダウンロードして</text>
+    <text x="460" y="326" font-size="42" font-weight="700" fill="#E17726">利用を開始する</text>
+    <text x="460" y="398" font-size="22" fill="#5A5A5F">公式サイトからの入手・初期設定・ログイン</text>
+    <text x="460" y="430" font-size="22" fill="#5A5A5F">セキュリティの注意点まで完全ガイド</text>
+
+    <!-- Brand -->
+    <text x="460" y="520" font-size="24" font-weight="700" fill="#8B3A07">MetaSurge</text>
+    <text x="460" y="548" font-size="16" fill="#9A9A9F">metasurge.github.io</text>
+  </g>
+</svg>
